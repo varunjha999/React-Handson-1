@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: rgb(198, 158, 217);
+    background: linear-gradient(180deg, rgba(198, 158, 217, 1) 0%, rgba(148, 227, 233, 0.9812967423297444) 100%);
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 2px 2px #32b8e9;
+
+}
+
+.Class1,.functinalComp {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(77, 180, 249);
+    border-radius: 25px;
+    padding-top: 30px;
+}
+.Class1{
+    background-color: blueviolet;
+}
+button {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(117, 198, 249);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    align-items: center;
+}
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+button:hover{
+    background-color: rgb(0, 110, 255);
+    color: white;
 }
